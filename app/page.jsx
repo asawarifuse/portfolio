@@ -180,7 +180,31 @@ export default function Home() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {/* Project 1: Dealer Performance AI */}
+          {/* Project 1: ResistNet — AMR Outbreak Early Warning */}
+          <div className="bg-[#111111] rounded-xl p-6 border border-red-800 hover:border-red-500 hover:scale-[1.02] transition transform flex flex-col justify-between relative">
+            <div>
+              <span className="absolute top-3 right-3 bg-yellow-500 text-black text-xs px-2 py-1 rounded-full font-medium">🚧 In Development</span>
+              <h3 className="text-xl font-bold mb-2 mt-2">ResistNet — AMR Early Warning System</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Predicts antibiotic resistance hotspots across Indian districts 4-6 weeks before outbreaks. Ingests real ICMR antibiogram PDFs, analyzes pharma sales, and generates plain-language GPT-4o alerts. Built from raw government data — no toy datasets.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Prophet</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">LSTM</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">SHAP</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">GPT-4o</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">LangChain</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">FastAPI</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">React</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Docker</span>
+              </div>
+            </div>
+            <a href="#" target="_blank" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
+          </div>
+
+          {/* Project 2: Dealer Performance AI */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Dealer Performance Intelligence System</h3>
@@ -199,7 +223,7 @@ export default function Home() {
             <a href="https://github.com/asawarifuse/dealer-performance-ai" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
-          {/* Project 2: CIROP Platform */}
+          {/* Project 3: CIROP Platform */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">CIROP — Customer Intelligence Platform</h3>
@@ -218,7 +242,7 @@ export default function Home() {
             <a href="https://github.com/asawarifuse/cirop-platform" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
-          {/* Project 3: Credit Risk Scoring */}
+          {/* Project 4: Credit Risk Scoring */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Credit Risk Scoring System</h3>
@@ -237,7 +261,7 @@ export default function Home() {
             <a href="https://github.com/asawarifuse/Credit-Risk-Scoring-System" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
-          {/* Project 4: Enterprise Retail Intelligence */}
+          {/* Project 5: Enterprise Retail Intelligence */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Enterprise Retail Intelligence Suite</h3>
@@ -254,7 +278,7 @@ export default function Home() {
             <a href="https://github.com/asawarifuse/Enterprise-Retail-Intelligence-Profitability-Command-Center" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
-          {/* Project 5: Healthcare Analytics */}
+          {/* Project 6: Healthcare Analytics */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Healthcare Analytics Dashboard</h3>
