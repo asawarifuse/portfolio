@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio.vercel.app) *(link after deployment)*
+[View Portfolio](https://my-portfolio.vercel.app)
 
 ---
 
@@ -28,18 +28,17 @@ Third-year B.Tech CSE (Data Science) student with strong foundations in data ana
 | **Languages** | Python, SQL, JavaScript |
 | **Data Analytics & BI** | Excel, Power Query, VBA, Tableau, Power BI |
 | **Data Science & ML** | NumPy, Pandas, Scikit-learn, XGBoost, SHAP, DiCE, Prophet |
-| **MLOps** | MLflow, Prefect, Evidently |
+| **MLOps & Streaming** | MLflow, Prefect, Evidently, Redpanda, WebSocket |
 | **Generative AI** | GPT-4o, LangChain |
 | **Web Development** | React.js, Redux, Node.js, Express.js, FastAPI, Flask, MongoDB, PostgreSQL |
 | **DevOps & Tools** | Git, GitHub, Docker, Docker Compose, GitHub Actions (CI/CD), Vercel, Render |
-| **Streaming** | Redpanda (Kafka), WebSocket |
 
 ---
 
 ## 📂 Projects
 
 ### 1. CIROP — Customer Intelligence & Revenue Optimization Platform 🟢 Live
-Full-stack enterprise analytics platform. Customer segmentation (RFM + K-Means), CLV prediction (BG/NBD + Gamma-Gamma), churn prediction (XGBoost), revenue forecasting (Prophet), scenario simulator, real-time streaming (Redpanda + WebSocket). MLOps with Prefect + MLflow + drift monitoring. CI/CD with GitHub Actions. E2E tests with Jest + Playwright. 50-day solo build. 200+ commits.
+Full-stack enterprise analytics platform. Customer segmentation (RFM + K-Means), CLV prediction (BG/NBD + Gamma-Gamma), churn prediction (XGBoost), revenue forecasting (Prophet), scenario simulator, real-time streaming (Redpanda + WebSocket). MLOps with Prefect + MLflow + drift monitoring. CI/CD with GitHub Actions. 50-day solo build. 200+ commits.
 
 **Tech:** React, Node.js, Python, FastAPI, PostgreSQL, Docker, Redpanda, MLflow, XGBoost, Prophet, WebSocket
 
@@ -79,11 +78,6 @@ Multi-dashboard Power BI solution for executive-level retail performance analysi
 **Tech:** Power BI, DAX, Power Query, Data Modeling
 
 🔗 [GitHub](https://github.com/asawarifuse/Enterprise-Retail-Intelligence-Profitability-Command-Center)
-
-### 7. Healthcare Analytics Dashboard
-Power BI dashboard analyzing patient demographics, hospital operations, and resource utilization for data-driven healthcare decisions.
-
-**Tech:** Power BI, DAX, Healthcare Analytics, Data Visualization
 
 ---
 

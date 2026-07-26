@@ -62,9 +62,7 @@ export default function Home() {
       <section id="about" className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-40">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 hover:text-gray-200 transition">About Me</h2>
         <div className="space-y-4 text-gray-300 text-lg leading-relaxed max-w-3xl">
-          <p>
-            I turn data into decisions — and ideas into deployed systems.
-          </p>
+          <p>I turn data into decisions — and ideas into deployed systems.</p>
           <p>
             I'm a third-year B.Tech CSE (Data Science) student with strong foundations in data analytics, 
             machine learning, and full-stack development. My toolkit spans Python, React, Node.js, Power BI, 
@@ -83,10 +81,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Academic Journey Section */}
+      {/* Academic Journey */}
       <section id="academics" className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-40 py-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Academic Journey</h2>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-10">
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 text-center hover:border-gray-500 hover:scale-105 transition transform">
             <p className="text-gray-500 text-sm mb-2">Semester 1</p>
@@ -109,7 +106,6 @@ export default function Home() {
             <p className="text-yellow-500 text-xs mt-2">Excellence</p>
           </div>
         </div>
-
         <div className="flex justify-center">
           <div className="bg-white text-black rounded-xl px-12 py-6 text-center hover:scale-105 transition transform">
             <p className="text-gray-600 text-sm mb-1">Cumulative CGPA</p>
@@ -118,10 +114,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills Section — Keep as is */}
+      {/* Skills Section */}
       <section id="skills" className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-40 py-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Skills & Tools</h2>
-        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform">
             <p className="text-3xl mb-3">🐍</p>
@@ -139,36 +134,35 @@ export default function Home() {
             <p className="text-gray-400 text-sm leading-relaxed">NumPy • Pandas<br/>Matplotlib • Seaborn<br/>Scikit-learn<br/>XGBoost</p>
           </div>
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform">
-            <p className="text-3xl mb-3">🧠</p>
-            <h3 className="font-semibold text-lg mb-3">ML Algorithms</h3>
-            <p className="text-gray-400 text-xs leading-relaxed">Linear/Logistic Regression<br/>KNN • SVM • Naive Bayes<br/>Decision Trees • Random Forest<br/>K-Means • Hierarchical<br/>PCA • Recommendation Systems</p>
-          </div>
-          <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform">
             <p className="text-3xl mb-3">💻</p>
             <h3 className="font-semibold text-lg mb-3">Web Development</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">React.js • Redux<br/>Node.js • Express.js<br/>FastAPI • Flask<br/>PostgreSQL • MongoDB</p>
+            <p className="text-gray-400 text-sm leading-relaxed">React.js • Redux<br/>Node.js • Express.js<br/>FastAPI<br/>PostgreSQL • MongoDB</p>
+          </div>
+          <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform">
+            <p className="text-3xl mb-3">⚙️</p>
+            <h3 className="font-semibold text-lg mb-3">MLOps & Streaming</h3>
+            <p className="text-gray-400 text-sm leading-relaxed">MLflow • Prefect<br/>Evidently<br/>Redpanda • WebSocket</p>
           </div>
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform">
             <p className="text-3xl mb-3">🛠️</p>
             <h3 className="font-semibold text-lg mb-3">DevOps & Tools</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">Git • GitHub<br/>Docker • Docker Compose<br/>GitHub Actions (CI/CD)<br/>Vercel • Render<br/>Redpanda • WebSocket</p>
+            <p className="text-gray-400 text-sm leading-relaxed">Git • GitHub<br/>Docker • Docker Compose<br/>GitHub Actions (CI/CD)<br/>Vercel • Render</p>
           </div>
         </div>
       </section>
 
-      {/* Projects Section — UPDATED */}
+      {/* Projects Section */}
       <section id="projects" className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-40 py-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Projects</h2>
-        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          {/* Project 1: CIROP — ENHANCED */}
+          {/* CIROP */}
           <div className="bg-[#111111] rounded-xl p-6 border border-blue-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between relative">
             <div>
               <span className="absolute top-3 right-3 bg-green-500 text-black text-xs px-2 py-1 rounded-full font-medium">🟢 Live</span>
               <h3 className="text-xl font-bold mb-2 mt-2">CIROP — Customer Intelligence Platform</h3>
               <p className="text-gray-400 text-sm mb-4">
-                Full-stack enterprise analytics platform. Customer segmentation (RFM + K-Means), CLV prediction (BG/NBD + Gamma-Gamma), churn prediction (XGBoost), revenue forecasting (Prophet), scenario simulator, real-time streaming (Redpanda + WebSocket). MLOps with Prefect + MLflow + drift monitoring. CI/CD with GitHub Actions. E2E tests with Jest + Playwright. 50-day solo build. 200+ commits.
+                Full-stack enterprise analytics platform. Customer segmentation, CLV prediction, churn prediction, revenue forecasting, scenario simulator, real-time streaming. MLOps with Prefect + MLflow. CI/CD with GitHub Actions. 50-day solo build. 200+ commits.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">React</span>
@@ -180,7 +174,6 @@ export default function Home() {
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Redpanda</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">MLflow</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">XGBoost</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Prophet</span>
               </div>
             </div>
             <div className="flex gap-2">
@@ -189,12 +182,12 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Project 2: DIGNITY Watch */}
+          {/* DIGNITY Watch */}
           <div className="bg-[#111111] rounded-xl p-6 border border-red-800 hover:border-red-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">DIGNITY Watch — Human Rights AI</h3>
               <p className="text-gray-400 text-sm mb-4">
-                India's first AI platform tracking manual scavenging deaths. Scrapes 50+ news sources across 8 Indian languages. Custom NLP pipeline: IndicBERT, IndicTrans2, XLM-RoBERTa. Dual database: PostgreSQL + Neo4j. React dashboard with 10 modules. Public REST API.
+                India's first AI platform tracking manual scavenging deaths. Scrapes 50+ news sources across 8 Indian languages. Custom NLP pipeline. Dual database: PostgreSQL + Neo4j. React dashboard with 10 modules.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
@@ -207,16 +200,16 @@ export default function Home() {
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Docker</span>
               </div>
             </div>
-            <a href="#" target="_blank" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
+            <a href="#" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
           </div>
 
-          {/* Project 3: ResistNet */}
+          {/* ResistNet */}
           <div className="bg-[#111111] rounded-xl p-6 border border-red-800 hover:border-red-500 hover:scale-[1.02] transition transform flex flex-col justify-between relative">
             <div>
               <span className="absolute top-3 right-3 bg-yellow-500 text-black text-xs px-2 py-1 rounded-full font-medium">🚧 In Development</span>
-              <h3 className="text-xl font-bold mb-2 mt-2">ResistNet — AMR Early Warning System</h3>
+              <h3 className="text-xl font-bold mb-2 mt-2">ResistNet — AMR Early Warning</h3>
               <p className="text-gray-400 text-sm mb-4">
-                Predicts antibiotic resistance hotspots across Indian districts 4-6 weeks before outbreaks. Ingests real ICMR antibiogram PDFs, analyzes pharma sales, and generates plain-language GPT-4o alerts.
+                Predicts antibiotic resistance hotspots across Indian districts 4-6 weeks before outbreaks. Real ICMR data. GPT-4o alerts. Built from raw government data.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
@@ -227,10 +220,10 @@ export default function Home() {
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">React</span>
               </div>
             </div>
-            <a href="#" target="_blank" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
+            <a href="#" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
           </div>
 
-          {/* Project 4: Dealer Performance AI */}
+          {/* Dealer Performance */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Dealer Performance Intelligence</h3>
@@ -241,6 +234,7 @@ export default function Home() {
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">XGBoost</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">SHAP</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">DiCE</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">GPT-4o</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Streamlit</span>
               </div>
@@ -248,7 +242,7 @@ export default function Home() {
             <a href="https://github.com/asawarifuse/dealer-performance-ai" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
-          {/* Project 5: Credit Risk Scoring */}
+          {/* Credit Risk */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-bold mb-2">Credit Risk Scoring System</h3>
@@ -259,10 +253,28 @@ export default function Home() {
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Excel</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">LAMBDA</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">VBA</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Power Query</span>
                 <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
               </div>
             </div>
             <a href="https://github.com/asawarifuse/Credit-Risk-Scoring-System" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
+          </div>
+
+          {/* Enterprise Retail Intelligence */}
+          <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-bold mb-2">Enterprise Retail Intelligence</h3>
+              <p className="text-gray-400 text-sm mb-4">
+                Multi-dashboard Power BI solution for executive-level retail performance analysis across sales, customer behavior, and profitability.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Power BI</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">DAX</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Power Query</span>
+                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Data Modeling</span>
+              </div>
+            </div>
+            <a href="https://github.com/asawarifuse/Enterprise-Retail-Intelligence-Profitability-Command-Center" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
           </div>
 
         </div>
@@ -275,7 +287,6 @@ export default function Home() {
           I'm actively seeking internship opportunities in Data Science, AI, and Full-Stack Development. 
           Whether you have a role, a project idea, or just want to connect — I'd love to hear from you.
         </p>
-        
         <div className="flex flex-col md:flex-row gap-6">
           <a href="mailto:fuseaasawari@gmail.com" className="bg-white text-black px-8 py-4 rounded-lg font-medium hover:bg-gray-200 hover:scale-105 transition transform text-lg">
             Email Me
