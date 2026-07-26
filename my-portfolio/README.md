@@ -1,6 +1,6 @@
 # Portfolio - Asawari Fuse
 
-**Data Analyst | Data Science & Analytics | Turning Data Into Impact**
+**Data Analyst | Full-Stack Developer | Turning Data Into Deployed Systems**
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 📊 About Me
 
-Third-year B.Tech CSE (Data Science) student with strong foundations in data analytics, machine learning, and generative AI. I build systems that combine prediction, explanation, and prescription — from credit risk engines to Gen AI-powered dealer intelligence platforms.
+Third-year B.Tech CSE (Data Science) student with strong foundations in data analytics, machine learning, and full-stack development. I don't just build dashboards or notebooks — I build complete systems from database design to ML pipelines to live deployment.
 
 - 📍 India
 - 📧 fuseaasawari@gmail.com
@@ -27,37 +27,61 @@ Third-year B.Tech CSE (Data Science) student with strong foundations in data ana
 |----------|-------|
 | **Languages** | Python, SQL, JavaScript |
 | **Data Analytics & BI** | Excel, Power Query, VBA, Tableau, Power BI |
-| **Data Science & ML** | NumPy, Pandas, Scikit-learn, XGBoost, SHAP, DiCE |
+| **Data Science & ML** | NumPy, Pandas, Scikit-learn, XGBoost, SHAP, DiCE, Prophet |
+| **MLOps** | MLflow, Prefect, Evidently |
 | **Generative AI** | GPT-4o, LangChain |
-| **Web Development** | React.js, Node.js, Express.js, Flask, Django, MongoDB, PostgreSQL |
-| **DevOps & Tools** | Git, GitHub, Docker, Vercel, Streamlit |
+| **Web Development** | React.js, Redux, Node.js, Express.js, FastAPI, Flask, MongoDB, PostgreSQL |
+| **DevOps & Tools** | Git, GitHub, Docker, Docker Compose, GitHub Actions (CI/CD), Vercel, Render |
+| **Streaming** | Redpanda (Kafka), WebSocket |
 
 ---
 
 ## 📂 Projects
 
-### 1. Dealer Performance Intelligence System
-AI-powered dealer performance monitoring with Gen AI conversational analytics for 500 automobile dealers across 11 KPIs and 24 months.
+### 1. CIROP — Customer Intelligence & Revenue Optimization Platform 🟢 Live
+Full-stack enterprise analytics platform. Customer segmentation (RFM + K-Means), CLV prediction (BG/NBD + Gamma-Gamma), churn prediction (XGBoost), revenue forecasting (Prophet), scenario simulator, real-time streaming (Redpanda + WebSocket). MLOps with Prefect + MLflow + drift monitoring. CI/CD with GitHub Actions. E2E tests with Jest + Playwright. 50-day solo build. 200+ commits.
+
+**Tech:** React, Node.js, Python, FastAPI, PostgreSQL, Docker, Redpanda, MLflow, XGBoost, Prophet, WebSocket
+
+🔗 [GitHub](https://github.com/asawarifuse/cirop-platform) | 🌐 [Live Demo](https://cirop-platform.vercel.app)
+
+### 2. DIGNITY Watch — Human Rights Intelligence Platform
+India's first AI platform tracking manual scavenging deaths. Scrapes 50+ news sources across 8 Indian languages. Custom NLP pipeline: IndicBERT, IndicTrans2, XLM-RoBERTa. Dual database: PostgreSQL + Neo4j. React dashboard with 10 modules. Public REST API. 16-week build.
+
+**Tech:** Python, PyTorch, HuggingFace, FastAPI, PostgreSQL, Neo4j, React, Docker, Prefect
+
+🔗 GitHub — Coming Soon
+
+### 3. ResistNet — AMR Outbreak Early Warning System 🚧 In Development
+Predicts antibiotic resistance hotspots across Indian districts 4-6 weeks before outbreaks. Ingests real ICMR antibiogram PDFs, analyzes pharma sales, and generates plain-language GPT-4o alerts.
+
+**Tech:** Python, Prophet, LSTM, SHAP, GPT-4o, LangChain, FastAPI, React, PostgreSQL, Docker
+
+🔗 GitHub — Coming Soon
+
+### 4. Dealer Performance Intelligence System
+AI-powered dealer performance monitoring with Gen AI conversational analytics for 500 automobile dealers across 11 KPIs and 24 months of data.
 
 **Tech:** Python, XGBoost, SHAP, DiCE, GPT-4o, Streamlit
 
-### 2. CIROP — Customer Intelligence & Revenue Optimization Platform
-Full-stack analytics platform combining customer segmentation, CLV prediction, churn prediction, and revenue forecasting. 75-day solo build.
+🔗 [GitHub](https://github.com/asawarifuse/dealer-performance-ai)
 
-**Tech:** React, Node.js, PostgreSQL, XGBoost, Prophet, Docker
-
-### 3. Credit Risk Scoring System
+### 5. Credit Risk Scoring System
 End-to-end rule-based credit risk decision engine built in Excel with LAMBDA, VBA automation, audit trail, and Python benchmark.
 
 **Tech:** Excel, LAMBDA, VBA, Power Query, Python, Logistic Regression
 
-### 4. Enterprise Retail Intelligence Suite
-Multi-dashboard Power BI solution for executive-level retail performance analysis.
+🔗 [GitHub](https://github.com/asawarifuse/Credit-Risk-Scoring-System)
+
+### 6. Enterprise Retail Intelligence Suite
+Multi-dashboard Power BI solution for executive-level retail performance analysis across sales, customer behavior, and profitability.
 
 **Tech:** Power BI, DAX, Power Query, Data Modeling
 
-### 5. Healthcare Analytics Dashboard
-Power BI dashboard analyzing patient demographics, hospital operations, and resource utilization.
+🔗 [GitHub](https://github.com/asawarifuse/Enterprise-Retail-Intelligence-Profitability-Command-Center)
+
+### 7. Healthcare Analytics Dashboard
+Power BI dashboard analyzing patient demographics, hospital operations, and resource utilization for data-driven healthcare decisions.
 
 **Tech:** Power BI, DAX, Healthcare Analytics, Data Visualization
 
@@ -86,7 +110,7 @@ Power BI dashboard analyzing patient demographics, hospital operations, and reso
 
 ## 📬 Get In Touch
 
-I'm actively seeking internship opportunities in Data Science, AI, and Analytics.
+I'm actively seeking internship opportunities in Data Science, AI, and Full-Stack Development.
 
 - 📧 Email: fuseaasawari@gmail.com
 - 🔗 LinkedIn: [linkedin.com/in/asawarifuse](https://linkedin.com/in/asawarifuse)
