@@ -204,24 +204,23 @@ export default function Home() {
           </div>
 
           {/* ResistNet */}
-          <div className="bg-[#111111] rounded-xl p-6 border border-red-800 hover:border-red-500 hover:scale-[1.02] transition transform flex flex-col justify-between relative">
-            <div>
-              <span className="absolute top-3 right-3 bg-yellow-500 text-black text-xs px-2 py-1 rounded-full font-medium">🚧 In Development</span>
-              <h3 className="text-xl font-bold mb-2 mt-2">ResistNet — AMR Early Warning</h3>
-              <p className="text-gray-400 text-sm mb-4">
-                Predicts antibiotic resistance hotspots across Indian districts 4-6 weeks before outbreaks. Real ICMR data. GPT-4o alerts. Built from raw government data.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Prophet</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">LSTM</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">SHAP</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">GPT-4o</span>
-                <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">React</span>
-              </div>
-            </div>
-            <a href="#" className="text-red-400 text-sm hover:underline">GitHub — Coming Soon →</a>
-          </div>
+<div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
+  <div>
+    <h3 className="text-xl font-bold mb-2">ResistNet — AMR Early Warning System</h3>
+    <p className="text-gray-400 text-sm mb-4">
+      AI-powered antimicrobial resistance outbreak prediction system. Forecasts which antibiotics will fail in which Indian district — 4 to 6 weeks ahead. Tracks 5 pathogens against 14 antibiotics across 114 districts.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Python</span>
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">FastAPI</span>
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">React</span>
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">Prophet</span>
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">XGBoost</span>
+      <span className="bg-gray-800 text-xs px-3 py-1 rounded-full">SHAP</span>
+    </div>
+  </div>
+  <a href="https://github.com/asawarifuse/resistnet" target="_blank" className="text-blue-400 text-sm hover:underline">View on GitHub →</a>
+</div>
 
           {/* Dealer Performance */}
           <div className="bg-[#111111] rounded-xl p-6 border border-gray-800 hover:border-blue-500 hover:scale-[1.02] transition transform flex flex-col justify-between">
