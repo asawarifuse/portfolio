@@ -23,9 +23,13 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-white transition">Projects</a>
           <a href="#contact" className="hover:text-white transition">Contact</a>
         </div>
-        <a href="https://github.com/asawarifuse" target="_blank" className="border border-gray-600 text-gray-300 px-4 py-2 rounded-lg text-sm hover:border-white hover:text-white transition-all">
-          GitHub
-        </a>
+        <div className="flex gap-3">
+          <a href="/Asawari_resume.pdf" target="_blank" className="border border-gray-600 text-gray-300 px-4 py-2 rounded-lg text-sm hover:border-white hover:text-white transition-all">
+            Resume
+          </a>
+          
+          
+        </div>
       </div>
     </nav>
   );
